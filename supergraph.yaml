@@ -1,0 +1,7 @@
+federation_version: =2.3.2
+
+subgraphs:
+  foo:
+    routing_url: http://localhost:8080
+    schema:
+      file: ./foo.graphqls
